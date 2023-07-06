@@ -1,7 +1,11 @@
+import Navbar from "@/components/Navbar/Navbar";
+
 function App() {
   return (
     <>
-      <div className="app">App</div>
+      <div className="app bg-gray-20">
+        <Navbar />
+      </div>
     </>
   );
 }
